@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret Mono:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* header */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Azeret Mono';
+    text-decoration: none;
+    list-style-type: none;
+    transition: all .3s;
+    outline: none;
+}
+
+header {
+    width: 100%;
+    padding-bottom: 36px;
+    background-color: #4A2B33;
+    color: #D27487;
+}
+
+.container {
+    margin: 0 auto;
+    width: 92.2%;
+}
+
+#nav li {
+    display: inline;
+    padding: 5px;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.latte {
+    font-size: 34px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.latter {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+li a {
+    color: #D27487;
+}
+
+.page1 {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.havola_icon {
+    width: 5%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgroom {
+    width: 100%;
+}
+
+.room {
+    width: 100%;
+    /* height: 644px; */
+}
+
+
+/* header end */
+
+.us {
+    text-align: center;
+    align-items: center;
+}
+
+.page2 {
+    width: 100%;
+    height: 525px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section {
+    padding: 120px 0;
+    background-color: #E9E9E3;
+}
+
+.us {
+    font-size: 17px;
+    text-align: center;
+    align-items: center;
+}
+
+.tucked {
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* .away {
+    width: 100%;
+    text-align: center;
+} */
+
+.margin {
+    width: 100%;
+    background-color: #E9E9E3;
+    justify-content: center;
+    display: flex;
+}
+
+.float {
+    width: 50%;
+}
+
+.h6 {
+    font-family: Azeret Mono;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 17px;
+}
+
+.we {
+    height: 135px;
+    width: 100%;
+    font-family: Inter;
+    font-size: 32px;
+    text-align: left;
+    margin-bottom: 74px;
+}
+
+.box {
+    width: 100%;
+}
+
+.page3 {
+    width: 50%;
+    color: #6F6F64;
+}
+
+.menu {
+    width: 100%;
+}
+
+.com {
+    height: 58px;
+    width: 531px;
+    border: 2px solid #6F6F64;
+    margin-bottom: 12px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.food {
+    background-color: #6F6F64;
+    color: white;
+}
+
+.section2 {
+    width: 100%;
+    background-color: #AA9E54;
+}
+
+.yellow {
+    padding: 120px 75px;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.all {
+    font-family: ' Azeret Mono';
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.letter {
+    font-size: 26px;
+    text-align: center;
+    color: white;
+}
+
+.saturday {
+    padding-top: 35px;
+}
+
+.section3 {
+    width: 100%;
+    padding: 152px 56px;
+    padding-bottom: 120px;
+    margin: 0 auto;
+}
+
+.umumiy {
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.umumiy img {
+    width: 100%;
+}
+
+.chair {
+    width: 48.3%;
+}
+
+.bottle_food {
+    width: 51%;
+    padding-right: 40px;
+}
+
+.foog {
+    padding-top: 40px;
+}
+
+.section4 {
+    width: 100%;
+    padding: 121px 56px;
+    background-color: #4A2B33;
+    color: #D27487;
+}
+
+.lorem {
+    height: 189px;
+    width: 595px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.award {
+    font-family: 'Azeret Mono';
+    font-size: 47px;
+    text-align: left;
+    padding-right: 267px;
+}
+
+.red {
+    justify-content: space-around;
+    display: flex;
+}
+
+.section5 {
+    width: 100%;
+    color: black;
+    padding: 53px 70px;
+}
+
+.container_na {
+    position: relative;
+}
+
+.container_end {
+    width: 100%;
+}
+
+.gap {
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7px;
+}
+
+.built {
+    color: #696969;
+    padding-bottom: 19px;
+}
+
+.n {
+    display: none;
+}
+
+@media screen and (max-width: 1074px) {
+    .container {
+        width: 83.3%;
+    }
+    nav {
+        width: 25%;
+        flex-direction: row;
+        gap: 5px;
+        font-size: 13px;
+    }
+    ul {
+        padding: 5px;
+    }
+    .margin {
+        width: 100%;
+        flex-direction: column;
+        border: 2px solid black;
+        text-align: center;
+        align-items: center;
+    }
+    .float {
+        width: 100%;
+    }
+    .page3 {
+        width: 100%;
+        padding: 0 170px;
+    }
+    .h6 {
+        text-align: center;
+    }
+    .we {
+        text-align: center;
+    }
+    .menu {
+        width: 100%;
+    }
+    .umumiy {
+        width: 100%;
+    }
+    .container_end {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        width: 29%;
+    }
+    .page3 {
+        width: 100%;
+        padding: 0 50px;
+    }
+    .lorem {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .n {
+        display: inline-block;
+    }
+    .o {
+        position: absolute;
+        left: 0;
+    }
+    .abs {
+        position: absolute;
+        left: 10px;
+    }
+    #nav {
+        font-size: 15px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: #4f2630;
+        box-shadow: 0 -10px 10px;
+    }
+    li {
+        padding: 15px 0;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    nav {
+        display: block;
+    }
+    .tucked {
+        font-size: 29px;
+    }
+    .com {
+        width: 100%;
+    }
+    .container_end {
+        font-size: 12px;
+    }
+    .we {
+        font-size: 25px;
+    }
+    .gap {
+        gap: 17px;
+        padding: 7px 0;
+    }
+    .award {
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+    .yellow p {
+        font-size: 12px;
+    }
+    .red {
+        width: 100%;
+        flex-direction: column;
+    }
+    .lorem {
+        padding-right: 300px;
+        text-align: center;
+        font-size: 15px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}
