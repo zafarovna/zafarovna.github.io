@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+.heelo {
+    float: left;
+    font-family: Roboto;
+    font-size: 36px;
+    padding-top: 35px;
+}
+
+.menu {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+
+.havola {
+    height: 17px;
+    width: 525px;
+    justify-content: space-around;
+    display: flex;
+    padding-top: 46px;
+}
+
+.sign {
+    justify-content: space-around;
+    display: flex;
+}
+
+.in {
+    padding-top: 42px;
+}
+
+.try {
+    width: 180px;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    border-radius: 30px;
+    background: #0555FF;
+}
+
+.for {
+    padding-top: 31px;
+    padding-left: 35px;
+}
+
+.grow {
+    height: 214px;
+    width: 953px;
+    font-family: Circular Std;
+    font-size: 96px;
+}
+
+.your {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.build {
+    font-family: Inter;
+    font-size: 22px;
+    text-align: center;
+    color: #5B5E6D;
+    padding-top: 35px;
+}
+
+.discover {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    padding-top: 40px;
+    gap: 20px;
+}
+
+.free {
+    width: 208px;
+    height: 60px;
+    border-radius: 30px;
+    background: #0555FF;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.video {
+    width: 208px;
+    height: 60px;
+    border-radius: 30px;
+    color: #0555FF;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 0px 10px 40px rgba(176, 201, 253, 0.3);
+}
+
+.img {
+    width: 100%;
+}
+
+.dow {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.dowlamd {
+    width: 800px;
+}
+
+
+/* section1 end */
+
+.award {
+    width: 100%;
+}
+
+.winning {
+    font-family: Circular Std;
+    font-size: 52px;
+    text-align: center;
+}
+
+.business {
+    font-family: Inter;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.box1 {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 59px;
+}
+
+.xitob {
+    height: 24.30000114440918px;
+    width: 24.299999237060547px;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.undov {
+    height: 50px;
+    width: 245px;
+    border-radius: 30px;
+    background-color: #0555FF1A;
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: #0555FF;
+}
+
+
+/* section3 */
+
+.develop {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    padding: 50px;
+}
+
+.rect {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.margin {
+    width: 50%;
+}
+
+.padding {
+    width: 100%;
+}
+
+.div {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.line {
+    width: 90%;
+    height: 2px;
+    background-color: grey;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.lop {
+    font-family: Circular Std;
+    font-size: 72px;
+    color: #050038;
+    padding-top: 230px;
+}
+
+.all {
+    color: #5B5E6D;
+    padding-top: 30px;
+}
+
+.learn {
+    padding-top: 40px;
+}
+
+.rax {
+    width: 163px;
+    height: 2px;
+    background-color: #0555FF;
+}
+
+.over {
+    text-align: center;
+    align-items: center;
+    color: #5B5E6D;
+}
+
+.it {
+    width: 100%;
+    background-color: #130C3A;
+}
+
+.easy {
+    color: white;
+    font-size: 69px;
+    text-align: center;
+    padding: 40px;
+}
+
+.enter {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+}
+
+.type {
+    width: 528px;
+    height: 50px;
+    background: #130C3A;
+    border: 2px solid #FFFFFF80;
+}
+
+.get {
+    width: 221px;
+    height: 53px;
+    background-color: #0555FF;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 1px;
+    border-radius: 5px;
+}
+
+.qator {
+    width: 100%;
+    text-align: start;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    color: white;
+}
+
+.qator p {
+    color: #7884A6;
+    padding: 10px
+}
+
+.g {
+    padding: 19px 0;
+}
+
+.a {
+    padding-top: 80px;
+}
+
+@media screen and (max-width: 1000px) {
+    .img {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .winning {
+        font-size: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .margin {
+        width: 50%;
+        text-align: start;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .rect {
+        width: 100%;
+    }
+    .lop {
+        width: 100%;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:980px) {
+    .dowlamd {
+        width: 100%;
+    }
+    .develop {
+        width: 100%;
+    }
+    .rect {
+        width: 100%;
+    }
+    .develop {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .lop {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .enter {
+        padding: 20px;
+    }
+    .in {
+        padding: 45px 2px 2px 2px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .dowlamd {
+        width: 100%;
+    }
+    .develop {
+        width: 100%;
+    }
+    .margin {
+        width: 100%;
+        text-align: center;
+    }
+    .rax {
+        display: none;
+    }
+    .lop {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .enter {
+        padding: 20px;
+    }
+    .havola {
+        font-size: 10pxx;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .heelo {
+        font-size: 30px;
+    }
+    .try {
+        width: 150px;
+        height: 30px;
+    }
+    .build {
+        display: none;
+    }
+    .in {
+        display: none;
+    }
+    .havola {
+        display: none;
+    }
+    .grow {
+        font-size: 60px;
+    }
+    .enter {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .grow {
+        height: 30%;
+        font-size: 50px;
+    }
+    .a {
+        padding: 40px 10px 10px 30px;
+    }
+    .discover {
+        padding: 20px;
+    }
+    .qator {
+        font-size: 10px;
+    }
+    .easy {
+        font-size: 35px;
+    }
+    .enter {
+        padding: 20px;
+    }
+}

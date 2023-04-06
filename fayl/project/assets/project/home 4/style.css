@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Raleway:ital,wght@1,100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    background-color: #56617c;
+}
+
+.umumiy {
+    justify-content: space-around;
+    display: flex;
+    padding: 140px;
+}
+
+.box1 {
+    padding-left: 35px;
+}
+
+.box2 {
+    width: 100%;
+    background-image: url("img/baground.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.shadow {
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    box-shadow: 0px 1px 35px 0px #FFFFFF30 inset;
+    /* box-shadow: 0px 4px 4px 0px #FFFFFF40; */
+    box-shadow: 0px 1px 10px 5px #FFFFFF42;
+    margin-bottom: 30px;
+}
+
+.proff {
+    font-size: 22px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.post {
+    font-size: 16px;
+    color: white;
+    padding-bottom: 81px;
+}
+
+.button {
+    width: 473px;
+    height: 79px;
+    background-color: #FFE848;
+    border-radius: 100px;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    border: none;
+}
+
+span {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+
+/* section 1 end */
+
+.box_blue {
+    width: 100%;
+    background-color: #1A1D25;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 21px 120px 21px 120px;
+    color: wheat;
+}
+
+.scrit {
+    width: 100px;
+    height: 30px;
+    background-color: #FFE848;
+    border-radius: 100px;
+    border: none;
+}
+
+
+/* secton2 end */
+
+.sec-icon {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    background-image: url("img/baground.png");
+    background-size: contain;
+}
+
+.smotrit {
+    width: 936px;
+    height: 67px;
+    background-color: #FFE848;
+    text-align: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.ves {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.img-l {
+    width: 65%;
+}
+
+.xaus {
+    width: 100%;
+    background-color: #2E344424;
+    background-image: url("img/baground.png");
+    background-size: contain;
+}
+
+.all {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+}
+
+.c3 {
+    padding: 20px;
+    background-color: #2C3241;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* section4 end */
+
+.little {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    background-image: url("img/baground.png");
+    background-size: contain;
+}
+
+.c25 {
+    padding: 43px;
+    margin: 20px;
+    color: white;
+    background-color: #ffffff17;
+}
+
+.c35 {
+    background-color: #3C4558;
+}
+
+.c45 {
+    padding: 43px;
+    margin: 20px;
+    color: antiquewhite;
+    background-color: #3c4558ae;
+}
+
+.container2 {
+    width: 100%;
+    background-color: #3B4357;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 23px;
+}
+
+.proekt {
+    width: 100%;
+    padding-bottom: 60px;
+    background-color: #111316;
+    color: #FFFFFF;
+    justify-content: space-around;
+    display: flex;
+}
+
+.proekt h1 {
+    padding: 78px 25px 35px 96px;
+}
+
+.proekt li {
+    padding: 18px 30px 6px 96px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.rax {
+    width: 2px;
+    height: 40%;
+    background-color: rgba(255, 255, 255, 0.358);
+    position: absolute;
+    margin-top: 90px;
+}
+
+.rax1 {
+    width: 2px;
+    height: 40%;
+    background-color: rgba(255, 255, 255, 0.347);
+    position: absolute;
+    margin-top: 90px;
+    left: 370px;
+}
+
+.rax3 {
+    width: 2px;
+    height: 40%;
+    background-color: rgba(255, 255, 255, 0.389);
+    position: absolute;
+    margin-top: 90px;
+    right: 430px;
+}
+
+li:hover {
+    color: blue;
+}
+
+.c {
+    width: 100%;
+    background-color: #111316;
+    color: rgba(255, 255, 255, 0.811);
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 30px;
+}
+
+.tell {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 15%;
+    border: 2px solid rgba(245, 222, 179, 0.503);
+}
+
+.vector {
+    width: 50px;
+    margin: 0px 0px 0px 30px;
+    border: 1px solid yellow;
+    text-align: center;
+    align-items: center;
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+.uslugi {
+    width: 100%;
+}
+
+.clas {
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 1250px) {
+    .img106 {
+        width: 100%;
+    }
+    .img174 {
+        width: 100%;
+    }
+    .c35 {
+        width: 100%;
+    }
+    .umumiy {
+        padding: 40px;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .button {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .proekt h1 {
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+    }
+    .proekt li {
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+    }
+    .uslugi {
+        font-size: 12px;
+    }
+    .box1 {
+        width: 100%;
+    }
+    .box1 {
+        width: 100%;
+    }
+    .png {
+        width: 100%;
+    }
+    .f45 {
+        font-size: 20px;
+    }
+    .box_blue {
+        width: 100%;
+        padding: 23px;
+        gap: 30px;
+    }
+    .scrit {
+        width: 100px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 20px;
+    }
+    .all {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .little {
+        flex-direction: column;
+    }
+    .map {
+        width: 100%;
+    }
+    .rax {
+        display: none;
+    }
+    .rax1 {
+        display: none;
+    }
+    .rax3 {
+        display: none;
+    }
+    .proekt {
+        width: 100%;
+        font-size: 12px;
+        margin: 2px;
+    }
+    .c {
+        width: 100%;
+        font-size: 12px;
+    }
+    .tell {
+        width: 300px;
+    }
+    .vector {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .box_blue {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .scrit {
+        width: 80%;
+    }
+    .uy {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .f45 {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .box2 {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .proekt h1 {
+        padding: 10px;
+    }
+    .proekt li {
+        padding: 10px;
+    }
+    .tell {
+        width: 200px;
+    }
+    .c {
+        padding: 1px;
+    }
+    .s {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .f45 {
+        font-size: 12px;
+        padding: 13px;
+    }
+    .button {
+        height: 30px;
+        font-size: 12px;
+        margin: 2px;
+        padding: 2px;
+    }
+    .uslugi {
+        width: 100%;
+        font-size: 10px;
+    }
+    .tip {
+        display: none;
+    }
+}

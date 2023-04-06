@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Raleway:ital,wght@1,100&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=PT+Sans:wght@700&family=Raleway:ital,wght@1,100&family=Russo+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: linear-gradient(90deg, #800BF5 26.67%, #2533f9 97.33%);
+    width: 100%;
+    /* background-color: red; */
+    color: white;
+}
+
+.kompani {
+    padding-top: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.vakansi {
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    font-size: 20px;
+    gap: 40px;
+}
+
+.vakansi p:hover {
+    color: #25C6F9;
+}
+
+.nachat {
+    width: 130px;
+    height: 40px;
+    background: linear-gradient(90deg, #800BF5 26.67%, #25C6F9 97.33%);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.nachat:hover {
+    border: 2px solid white;
+}
+
+.logo {
+    width: 150px;
+}
+
+
+/* container 1 end */
+
+.span {
+    background: linear-gradient(89.89deg, #0b13f5 30.34%, #25C6F9 40.86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 64px;
+}
+
+.igri {
+    font-family: 'Russo One', sans-serif;
+    font-size: 64px;
+    padding: 20px;
+}
+
+.luchshi {
+    justify-content: space-around;
+    display: flex;
+}
+
+.se {
+    color: rgb(0, 119, 255);
+}
+
+.kajdu {
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-left: 19px;
+}
+
+.box1 {
+    padding-left: 40px;
+    text-align: start;
+    align-items: start;
+}
+
+.box2 {
+    background-image: url("img/Безымянный-5\ 1.png");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: linear-gradient(89.89deg, #0b13f5 30.34%, #25C6F9 40.86%);
+}
+
+
+/* container 2 end */
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(0, 157, 255);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: blue;
+}
+
+.gmail {
+    width: 50%;
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+    border: 2px solid white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 70px;
+}
+
+.con {
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.email {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+/* section 3 end */
+
+.imgrec {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.xat_name {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.xat {
+    width: 80%;
+    height: 3px;
+    background-color: #00C2FF;
+}
+
+.obshi {
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.polni {
+    width: 80%;
+    padding-top: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* container 5 end */
+
+.p1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.opit {
+    width: 60%;
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* backdrop-filter: blur(5px); */
+}
+
+.komanda {
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 90px;
+}
+
+.polni {
+    background: url("img/Космонавт\ 2.png");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.final {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 40px;
+}
+
+.final_all {
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #1618492f;
+}
+
+.finalbox li {
+    padding: 15px;
+}
+
+.finalbox li:hover {
+    background-color: #00C2FF;
+    color: black;
+}
+
+.all11 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(148, 139, 139);
+    padding: 20px;
+}
+
+.img35 {
+    width: 100%;
+    padding: 20px;
+}
+
+@media screen and (max-width:1440px) {
+    .luchshi {
+        background-image: url("img/Безымянный-5\ 1.png");
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box2 {
+        display: none;
+    }
+    .box1 {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 1112px) {
+    .p0 {
+        display: none;
+    }
+    .p2 {
+        display: none;
+    }
+    .gmail {
+        width: 600px;
+    }
+    .icon {
+        display: none;
+    }
+    .igri {
+        font-size: 38px;
+    }
+    .kajdu {
+        font-size: 30px;
+    }
+    .box2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .v {
+        display: none;
+    }
+    .finalbox h1 {
+        font-size: 13px;
+    }
+    .finalbox li {
+        font-size: 10px;
+        padding: 5px;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:725px) {
+    .p01 {
+        display: none;
+    }
+    .opit {
+        font-size: 18px;
+    }
+    .komanda {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:725px) {
+    .rasm0 {
+        width: 40px;
+    }
+    .nachat {
+        width: 80px;
+        font-size: 10px;
+    }
+    .igri {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .raz {
+        font-size: 9px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .opit {
+        font-size: 15px;
+    }
+}
