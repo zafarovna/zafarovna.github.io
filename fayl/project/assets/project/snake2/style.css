@@ -8,8 +8,8 @@
 
 body {
     display: flex;
-    align-items: center;
     justify-content: center;
+    padding-top: 5vh;
     min-height: 100vh;
     background: #E3F2FD;
 }
@@ -18,7 +18,7 @@ body {
     width: 65vmin;
     height: 70vmin;
     display: flex;
-    overflow: hidden;
+    /* overflow: hidden; */
     flex-direction: column;
     justify-content: center;
     border-radius: 5px;
@@ -45,6 +45,19 @@ body {
 
 .play-board .food {
     background: #FF003D;
+    border-radius: 50%;
+    animation: circle_anim 1s linear infinite;
+    transition: all 0.5s;
+}
+
+@keyframes circle_anim {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
 }
 
 .play-board .head {
@@ -53,18 +66,48 @@ body {
 
 .controls {
     display: none;
-    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 30%;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
 }
 
 .controls i {
-    padding: 25px 0;
-    text-align: center;
-    font-size: 1.3rem;
-    color: #B8C6DC;
-    width: calc(100% / 4);
-    cursor: pointer;
-    border-right: 1px solid #171B26;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
 }
+
+.fa-arrow-left-long {
+    position: relative;
+    top: 50px;
+}
+
+.fa-arrow-right-long {
+    position: relative;
+    top: -50px;
+    left: 100px;
+}
+
+.fa-arrow-up-long {
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+
+.fa-arrow-down-long {
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+
+
+/* Samarkand11 */
 
 @media screen and (max-width: 800px) {
     .wrapper {
@@ -76,10 +119,11 @@ body {
         padding: 15px 27px;
     }
     .controls {
-        display: flex;
+        display: block;
+        background-color: transparent;
     }
     .controls i {
-        padding: 15px 0;
-        font-size: 1rem;
+        background-color: blue;
+        color: white;
     }
 }
